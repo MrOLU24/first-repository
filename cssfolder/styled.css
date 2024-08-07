@@ -1,0 +1,129 @@
+/* Basic selectors */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+  color: #333;
+}
+header {
+  background-color: #3b3b3b;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none; 
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+/* Relational selectors */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+/* home/ Pseudo-class selectors */
+section:hover {
+  border: 3px solid #ff7e5f;
+  transition: border 0.3s ease;
+}
+section#about:hover {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+}
+/* Pseudo-element selectors */
+section#services p::first-line {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+/* color */
+h1,
+h2 {
+  color: #3b3b3b;
+}
+h3 {
+  color: #ff7e5f;
+}
+/* about */
+#about {
+  background: linear-gradient(to right, #eef2f3, #ffffff);
+  border: 2px solid #3b3b3b;
+  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+}
+/* border */
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0 3s ease;
+}
+.card:hover {
+  background-color: #ff7e5f;
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+}
+/* shadow */
+section {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+/* form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form label {
+  font-weight: bold;
+}
+form input[type="text"],
+form input[type="email"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 0.5rem;
+  background-color: #3b3b3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #ff7e5f;
+}
+/* footer */
+#foot {
+  text-align: center;
+  color: white;
+  background-color: #3b3b3b;
+  border-top: 5px solid #ff7e5f;
+  padding: 1rem;
+}
+footer p {
+  margin: 0%;
+}
