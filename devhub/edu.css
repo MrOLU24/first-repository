@@ -1,3 +1,50 @@
-.container{
-    
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.image {
+  max-width: 20%;
+  margin-left: 10%;
+}
+.linked {
+  display: flex;
+  margin-left: 15%;
+}
+.link-box {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: rgb(113, 113, 196);
+}
+.link-box:hover {
+  background-color: black;
+  color: white;
+}
+.sec-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4e9dd3;
+    height: 50px;
+    margin-top: 20px;
+}
+.sec-linked{
+    display: flex;
+    margin-left: 10%;
+    color: red;
+}
+.sec-linked .link-box{
+    color: white;
+    padding: 10px 16px;
+}
+.image-container{
+    width: 100%;
+}
+.sec-image{
+    width: 1370px;
+    height: 400px;
 }
