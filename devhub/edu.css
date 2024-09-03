@@ -39,12 +39,47 @@
 }
 .sec-linked .link-box{
     color: white;
-    padding: 10px 16px;
+    padding: 10px 15px;
 }
 .image-container{
     width: 100%;
 }
 .sec-image{
     width: 1370px;
-    height: 400px;
+    height: 450px;
+}
+ h1{
+    display: flex;
+   margin-top: 10px;
+   justify-content: center;
+   color: #7ed4c2;
+   text-decoration: underline;
+} 
+ .ceoface{
+    max-width: 350px;
+    height: auto;
+    margin-top: 30px;
+ }
+.cointainer-img{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+.p-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.paragraph{
+    text-align: justify;
+}
+main h1{
+    color: black;
+    margin-top: 30px;
+}
+main p{
+   margin-top: 20px;
+}
+main h2{
+  margin-top: 30px;
 }
