@@ -24,62 +24,150 @@
   background-color: black;
   color: white;
 }
-.sec-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #4e9dd3;
-    height: 50px;
-    margin-top: 20px;
+.sec-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4e9dd3;
+  height: 50px;
+  margin-top: 20px;
 }
-.sec-linked{
-    display: flex;
-    margin-left: 10%;
-    color: red;
+.sec-linked {
+  display: flex;
+  margin-left: 10%;
+  color: red;
 }
-.sec-linked .link-box{
-    color: white;
-    padding: 10px 15px;
+.sec-linked .link-box {
+  color: white;
+  padding: 10px 15px;
 }
-.image-container{
-    width: 100%;
+.image-container {
+  width: 100%;
 }
-.sec-image{
-    width: 1370px;
-    height: 450px;
+.sec-image {
+  width: 1370px;
+  height: 450px;
 }
- h1{
-    display: flex;
-   margin-top: 10px;
-   justify-content: center;
-   color: #7ed4c2;
-   text-decoration: underline;
-} 
- .ceoface{
-    max-width: 350px;
-    height: auto;
-    margin-top: 30px;
- }
-.cointainer-img{
-    display: flex;
-    gap: 20px;
-    align-items: end;
+h1 {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  color: #7ed4c2;
+  text-decoration: underline;
 }
-.p-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.paragraph{
-    text-align: justify;
-}
-main h1{
-    color: black;
-    margin-top: 30px;
-}
-main p{
-   margin-top: 20px;
-}
-main h2{
+.ceoface {
+  max-width: 350px;
+  height: auto;
   margin-top: 30px;
+}
+.cointainer-img {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.p-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.paragraph {
+  text-align: justify;
+}
+main h1 {
+  color: black;
+  margin-top: 30px;
+}
+main p {
+  margin-top: 20px;
+}
+main h2 {
+  margin-top: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.button-container button {
+  width: 140px;
+  height: 40px;
+  background-color: #4e9dd3;
+  border: none;
+}
+#button{
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+}
+button:hover{
+  background-color: #7ed4c2;
+}
+footer {
+  height: 400px;
+  background-color: #0b1c2c;
+  margin-top: 30px;
+}
+.foot-container {
+  display: flex;
+  gap: 15%;
+  margin-left: 10%;
+}
+.foot-container a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: large;
+}
+.foot-container a:hover {
+  text-decoration: underline;
+}
+.student {
+  display: flex;
+}
+.student-div {
+  margin-top: 10px;
+}
+.student-container {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px 5px 908px;
+  /* padding: 5px; */
+}
+.campus-container {
+  display: flex;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+  margin: 5px 5px 5px 908px;
+  padding-top: 10px;
+}
+.location {
+  display: flex;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+  margin: 5px 5px 5px 908px;
+  padding-top: 10px;
+}
+.location-span {
+  display: flex;
+  color: white;
+  margin: 5px 5px 5px 908px;
+}
+.student-div a:hover {
+  text-decoration: underline;
+}
+.alumni {
+  display: flex;
+  justify-content: center;
+}
+.alumni-div{
+  color: white;
+  text-decoration: none;
 }
