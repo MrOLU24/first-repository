@@ -1,0 +1,161 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+main{
+    margin-top: 5%;
+}
+.first-class{
+    padding: 20px 20px;
+}
+b{
+    color: #0c9d6c;
+}
+.sec-container{
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    border-top: 10px solid #b5b5b5;
+}
+.second-class{
+    background-color: #ffbf00;
+    width: 90%;
+    height: 70px;
+    border-bottom: 10px solid #cc9900;
+}
+h2{
+    font-size: 23px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.last-class{
+    padding: 20px 20px;
+}
+#foot{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+@media (min-width: 655px) {
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    main{
+        margin-top: 5%;
+    }
+    .first-class{
+        padding: 20px 20px;
+        width: 65%;
+    }
+    .paragraph{
+        width: 75%;
+    }
+    b{
+        color: #0c9d6c;
+    }
+    .sec-container{
+        width: 100%;
+        height: 60px;
+        background-color: #666666;
+        border-top: 10px solid #b5b5b5;
+    }
+    .second-class{
+        background-color: #ffbf00;
+        width: 60%;
+        height: 60px;
+        border-bottom: 10px solid #cc9900;
+    }
+    h2{
+        font-size: 25px;
+        padding: 20px 20px;
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+    .last-class{
+        padding: 20px 20px;
+    }
+    .sec-contain{
+        width: 100%;
+        height: 60px;
+        background-color: #666666;
+        border-top: 10px solid #b5b5b5;
+    }
+    #foot{
+       background-color: white;
+    }
+}
+@media (min-width: 1025px){
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .first-class{
+        margin-left: 20%;
+        width: 35%;
+    }
+    b{
+        color: #0c9d6c;
+    }
+    .sec-container{
+        width: 100%;
+        height: 60px;
+        background-color: #666666;
+        border-top: 10px solid #b5b5b5;
+        position: relative;
+    }
+    .second-class{
+        background-color: #ffbf00;
+        width: 30%;
+        height: 70px;
+        border-bottom: 10px solid #cc9900;
+        position: absolute;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .div-container{
+        background-color: #666666;
+    }
+    .div-wrap{
+        background-color: white;
+        border-bottom: 10px solid #b5b5b5;
+        width: 60%;
+        margin-left: 20%;
+        height: 330px;
+    }
+    h2{
+        font-size: 23px;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+    .last-class{
+        width: 95%;
+        padding-top: 80px;
+    }
+    .sec-contain{
+        border-top: 10px solid #666666;
+    }
+    #foot{
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 1.5rem;
+     }
+}
